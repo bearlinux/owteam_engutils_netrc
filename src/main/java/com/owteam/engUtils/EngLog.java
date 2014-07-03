@@ -21,7 +21,7 @@ import ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP;
  */
 public class EngLog {
 	
-	public static void clearLoggers(){
+	public static void clearAppenders(){
 		Logger root = (Logger) LoggerFactory.getLogger(Logger.ROOT_LOGGER_NAME);
 		root.detachAndStopAllAppenders();
 	}
