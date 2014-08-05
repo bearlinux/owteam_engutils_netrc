@@ -1,5 +1,6 @@
-package com.owteam.engUtils;
+package com.owteam.engUtils.netrc;
 
+import com.owteam.engUtils.netrc.Netrc;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;

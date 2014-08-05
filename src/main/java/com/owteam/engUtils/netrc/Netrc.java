@@ -1,4 +1,4 @@
-package com.owteam.engUtils;
+package com.owteam.engUtils.netrc;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -14,12 +14,12 @@ import org.apache.http.auth.Credentials;
 import org.apache.http.auth.UsernamePasswordCredentials;
 
 /**
- * This has been blatently stolen from
+ * This has been blatantly copied from
  *
- * @see https://github.com/jenkinsci/git-client-plugin/blob/master/src/main/java/org/jenkinsci/plugins/gitclient/Netrc.java and modfied to make it not related
- * to hudson
+ * @see https://github.com/jenkinsci/git-client-plugin/blob/master/src/main/java/org/jenkinsci/plugins/gitclient/Netrc.java and modified to make it not related
+ * to jenkins
  * @see http://opensource.org/licenses/MIT
- * @author bwadleigh
+ * 
  */
 public class Netrc {
 
